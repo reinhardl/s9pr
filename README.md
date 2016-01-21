@@ -20,6 +20,7 @@ change the file /PLUGIN/serendipity_event_freetag/serendipity_event_freetag.php
 _______________________________________________________________________________________________________________________
 from:
 
+
    function getRelatedEntriesHtml(&$entries, $extended_smarty = false) {
         global $serendipity;
 
