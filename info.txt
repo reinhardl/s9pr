@@ -1,0 +1,5 @@
+Name: s9pr
+Author: RL.   
+Date: 2015-12-06
+Require Serendipity: 1.6
+Backend: No

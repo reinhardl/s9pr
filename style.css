@@ -1,0 +1,45 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+/*!
+ * Clean Blog v1.0.0 (http://startbootstrap.com)
+ * Copyright 2014 Start Bootstrap
+ * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
+ * Theme ported to Serendipity (http://s9y.org) by Don Chambers
+ * Font Awesome by Dave Gandy - http://fontawesome.io
+ */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  background: #F1F4F9;
+  
+} 
+
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.serendipitySideBarTitle {font-size: 18px;}
+.b10pixel {	
+	margin-bottom: 10px !important;
+	padding-top: 1px !important;
+	 
+}
+.t10pixel {	
+ 
+	padding-top: 15px !important;
+	 
+}
+.sidebarPadding {
+  padding-right: 15px;
+  padding-left: 15px;}
+  
+ .entrybody {
+  font-size: 16px;
+
+ } 
+ 
