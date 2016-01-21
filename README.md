@@ -1,15 +1,25 @@
 # s9pr
 S9y Theme in pinterest look
-
-
+Please install  serendipity_event_entryproperties     with  Custom Fields  :     smallIMG,largeIMG
+Please install  serendipity_event_freetag 
+ with    
+      Enable "tags-as-list" = non-opened entries :NO
+      Show tags in footer? Smarty
+      Extended Smarty: YES
+      Show tag cloud to related tags?:YES
+      Display related entries by tags?    :YES
+      
+           
 If you want to have related entries, you can copy the file plugin/serendipity_event_freetag.php  from the template directory into the /PLUGIN/serendipity_event_freetag/ directory
 
 or
 
 change the file /PLUGIN/serendipity_event_freetag/serendipity_event_freetag.php  
 
-from
+ 
 _______________________________________________________________________________________________________________________
+from:
+
    function getRelatedEntriesHtml(&$entries, $extended_smarty = false) {
         global $serendipity;
 
