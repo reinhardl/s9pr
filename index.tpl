@@ -22,6 +22,10 @@
 {* BOOTSTRAP CORE CSS *}
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">    
 	<link rel="stylesheet" type="text/css" href="{$serendipityHTTPPath}templates/{$template}/css/s9pr.min.css" >  
+   {include file='spezielle-scripte/include_css.tpl'}  
+	
+	
+	
 {* S9Y CSS *}
     <link rel="stylesheet" href="{$head_link_stylesheet}"> 
     <link rel="alternate" type="application/rss+xml" title="{$blogTitle} RSS feed" href="{$serendipityBaseURL}{$serendipityRewritePrefix}feeds/index.rss2">
@@ -221,7 +225,7 @@
         </div>
     </footer>
 	
-	
+ >>{$currpage}<<
 	
 	  {if $view =! "entryx" }
  
@@ -238,11 +242,16 @@
 	
 	
 	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  
-       	<script src="{$serendipityBaseURL}templates/{$template}/js/bootstrap-cookie-consent.js"></script> 
+ 
+       
 	
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src={serendipity_getFile file="js/pr.js"}></script>
+	
+ 
+
+	 {include file='spezielle-scripte/include_js.tpl'}  
+	
 {/if}
 {$raw_data}
 {serendipity_hookPlugin hook="frontend_footer"}

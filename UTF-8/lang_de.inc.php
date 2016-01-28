@@ -6,6 +6,7 @@
 @define('TOGGLE_NAV','Navigation'); //only seen by screen readers
 @define('CLOSE','Schließen'); //close button on search form
 @define('READ_MORE','Mehr lesen');
+@define('DISPLAY_COOKIES','EU Forderung nach Cookie-Zustimmung');
 
 //Option groups and instructions
 @define('THEME_HEADERS', 'Header-Bilder');
@@ -15,8 +16,7 @@
 @define('THEME_README','Lies mich');
 @define('THEME_EP_YES','<p>Das Plugin Erweiterte Eigenschaften für Einträge (serendipity_event_entryproperties) wird benötigt. Es ist installiert und aktiv.</p>');
 @define('THEME_EP_NO','<p class="serendipity_msg_important">Das Plugin Erweiterte Eigenschaften für Einträge (serendipity_event_entryproperties) wird benötigt. Es ist entweder nicht installiert oder inaktiv. Bitte das Plugin installieren, um alle Features dieses Themes voll zu nutzen.</p>');
-@define('THEME_INSTRUCTIONS','<p>Dieses Theme nutzt breite Header-Bilder für unterschiedliche Seitentypen. Standardbilder werden mit dem Theme geliefert, diese sind 1900px breit. Diese Standardbilder können unten in den Einstellungen ausgetauscht werden. Zusaätzlich zu den Standardbildern können für jeden Eintrag und jede statische Seite eigene Header-Bilder definiert werden.</p> <p>Das Design dieses Theme sieht die Nutzung eines sekundären Untertitels oder einer Verfasserzeile direkt unter dem Eintragstitel vor. Dieser Untertitel und das Eintragsbild können im Abschnitt "Erweiterte Optionen" beim Anlegen oder Bearbeiten einer Seite geändert werden. Optional kann man das Theme so einstellen, dass die ersten 70 Zeichen des Eintrags als Untertitel verwendet werden, wenn kein Untertitel angegeben wurde.</p> <p>Dieses Theme bietet keine Seitenleisten, kann jedoch optional die Seitenleisten-Plugins Kategorien und Tags in der Archiv-Seite ausgeben. Siehe "' . THEME_PAGE_OPTIONS . '" unten.</p> <p>Falls das Avatar-Plugin (serendipity_event_gravatar) verwendet wird, sollte dessen Option "Smarty Tag erzeugen" für eine optimale Darstellung auf "Ja" gesetzt werden.</p> <p>Die Option "Erweiteres Smarty" in serendipity_event_freetag sollte für eine schönere Darstellung im Eintragsfuß ebenfalls auf "Ja" gesetzt sein.</p>');
-@define('SUBTITLE_USE_ENTRYBODY','Die ersten 70 Zeichen des Einrags als Untertitel ausgeben, wenn das Feld Untertitel leer gelassen wurde?');
+@define('THEME_INSTRUCTIONS','<p> </p>s  lung auf "Ja" gesetzt werden.</p> <p></p>');@define('SUBTITLE_USE_ENTRYBODY','Die ersten 70 Zeichen des Einrags als Untertitel ausgeben, wenn das Feld Untertitel leer gelassen wurde?');
 @define('ENTRYBODY_DETAILED_ONLY','Eintags-Inhalt nur in der Einzelansicht eines Eintrags anzeigen');
 @define('THEME_ENTRY_PROPERTIES_HEADING','Eintragseigenschaften des Clean Blog-Themes');
 @define('THEME_CUSTOM_FIELD_HEADING', 'Freie Felder für Einträge');
