@@ -16,7 +16,7 @@
 @define('THEME_README','Lies mich');
 @define('THEME_EP_YES','<p>Das Plugin Erweiterte Eigenschaften für Einträge (serendipity_event_entryproperties) wird benötigt. Es ist installiert und aktiv.</p>');
 @define('THEME_EP_NO','<p class="serendipity_msg_important">Das Plugin Erweiterte Eigenschaften für Einträge (serendipity_event_entryproperties) wird benötigt. Es ist entweder nicht installiert oder inaktiv. Bitte das Plugin installieren, um alle Features dieses Themes voll zu nutzen.</p>');
-@define('THEME_INSTRUCTIONS','<p> </p>s  lung auf "Ja" gesetzt werden.</p> <p></p>');
+@define('THEME_INSTRUCTIONS','  <p> Benötigtes Plugin: serendipity_event_entryproperties  mit den Feldern smallIMG und largeIMG,</p>');
 @define('SUBTITLE_USE_ENTRYBODY','Die ersten 70 Zeichen des Einrags als Untertitel ausgeben, wenn das Feld Untertitel leer gelassen wurde?');
 @define('ENTRYBODY_DETAILED_ONLY','Eintags-Inhalt nur in der Einzelansicht eines Eintrags anzeigen');
 @define('THEME_ENTRY_PROPERTIES_HEADING','Eintragseigenschaften des Clean Blog-Themes');
