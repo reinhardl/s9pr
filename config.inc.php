@@ -74,39 +74,7 @@ $template_config = array(
         'type'          => 'content',
         'default'       => $ep_msg . THEME_INSTRUCTIONS . '<p>' . CATEGORIES_ON_ARCHIVE_DESC . '</p><p>' . TAGS_ON_ARCHIVE_DESC . '<p>',
     ),
-    array(
-        'var'           => 'default_header_image',
-        'name'          => DEFAULT_HEADER_IMAGE,
-        'description'   => DEFAULT_HEADER_IMAGE_DESC,
-        'type'          => 'media',
-        'default'       => serendipity_getTemplateFile('img/home-bg.jpg', 'serendipityHTTPPath', true)
-    ),
-    array(
-        'var'           => 'entry_default_header_image',
-        'name'          => ENTRY_DEFAULT_HEADER_IMAGE,
-        'description'   => ENTRY_DEFAULT_HEADER_IMAGE_DESC,
-        'type'          => 'media',
-        'default'       => serendipity_getTemplateFile('img/post-bg.jpg', 'serendipityHTTPPath', true)
-    ),
-    array(
-        'var'           => 'staticpage_header_image',
-        'name'          => STATICPAGE_DEFAULT_HEADER_IMAGE,
-        'description'   => STATICPAGE_DEFAULT_HEADER_IMAGE_DESC,
-        'type'          => 'media',
-        'default'       => serendipity_getTemplateFile('img/about-bg.jpg', 'serendipityHTTPPath', true)
-    ),
-     array(
-        'var'           => 'contactform_header_image',
-        'name'          => CONTACTFORM_HEADER_IMAGE,
-        'type'          => 'media',
-        'default'       => serendipity_getTemplateFile('img/contact-bg.jpg', 'serendipityHTTPPath', true)
-    ),
-     array(
-        'var'           => 'archive_header_image',
-        'name'          => ARCHIVE_HEADER_IMAGE,
-        'type'          => 'media',
-        'default'       => serendipity_getTemplateFile('img/archive-bg.jpg', 'serendipityHTTPPath', true)
-    ),    
+    
     array(
         'var'           => 'date_format',
         'name'          => ENTRY_DATE_FORMAT . ' (http://php.net/strftime)',
