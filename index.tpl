@@ -225,10 +225,10 @@
         </div>
     </footer>
 	
- >>{$currpage}<<
+
 	
 	  {if $view =! "entryx" }
- 
+  >>{$currpage}<<
  <br/>	$is_single_entry {$is_single_entry}<--
  <br/>$view={$view}<--
  <br/> $template_option.google_map_staticpage={$template_option.google_map_staticpage}

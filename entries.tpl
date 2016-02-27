@@ -72,7 +72,7 @@
                 <div id="extended" class="content serendipity_extended_body entrybody">
                     {$entry.extended}
                 </div>
-            {/if}
+            {/if}<br/>
             {if $entry.plugin_display_dat}
                 {$entry.plugin_display_dat}
             {/if}
@@ -84,12 +84,13 @@
                         {foreach from=$entry.categories item="entry_category" name="categories"}<a class="btn btn-sm btn-default" href="{$entry_category.category_link}" title="{$CONST.CATEGORY}: {$entry_category.category_name|@escape}">{$entry_category.category_name|@escape}</a>{if !$smarty.foreach.categories.last}&nbsp;{/if}{/foreach}
                     {/if}
                     {if isset($entry.freetag.extended) && $entry.freetag.extended == 1}
-                        {if $entry.freetag.tags.tags}
-                            <div class="clean-blog_freeTag">
+                        {if $entry.freetag.tags.tags} 
+							<p>&nbsp;</p>
+                            <div class="freeTag">
                             <span class="sr-only">{$entry.freetag.tags.description}</span>
                             <i class="fa fa-tags" aria-hidden="true"></i>
                                 {foreach from=$entry.freetag.tags.tags item="tag"}
-                                    {$tag}
+                                <li class="btn btn-sm btn-default" >  {$tag}</li>
                                 {/foreach}
                             </div>
                             {if $is_single_entry or $is_preview}
