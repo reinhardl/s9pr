@@ -63,12 +63,13 @@ to:
 			foreach($entries AS $entryid => $title) {
 				$properties = serendipity_fetchEntryProperties($entryid);
 				$return['entries'][] = array(
-					'url'      => serendipity_archiveURL($entryid, $title),
-					'title'    => htmlspecialchars($title),
-					'rlbild'   => htmlspecialchars($properties[ep_smallIMG]), 
-					'sub_title'=> htmlspecialchars($properties[entry_subtitle])
-				);
-			}
+               'url'      => serendipity_archiveURL($entryid, $title),
+               'title'    => htmlspecialchars($title),
+               'rlbild'   => htmlspecialchars($properties[ep_smallIMG]), 
+			   'sub_title'=> htmlspecialchars($properties[entry_subtitle]),
+			   'entrynr'=> htmlspecialchars($entryid)
+				);		
+				}
 			} else {
             $return = '<div class="serendipity_freeTag_related">' . PLUGIN_EVENT_FREETAG_RELATED_ENTRIES . '<ul class="plainList">';
             foreach($entries AS $entryid => $title) {
